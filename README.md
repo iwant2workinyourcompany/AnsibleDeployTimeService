@@ -11,3 +11,16 @@ ansible-playbook playbooks/docker.yml
 ```
 ansible-playbook playbooks/deploy.yml
 ```
+
+## Project structure:
+```
+├── ansible.cfg
+├── hosts
+├── playbooks
+│   ├── deploy.yml
+│   └── docker.yml
+├── README.md
+└── roles
+    ├── deploy.docker/
+    └── geerlingguy.docker/
+```

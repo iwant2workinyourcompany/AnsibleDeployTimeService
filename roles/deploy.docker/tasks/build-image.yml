@@ -1,0 +1,6 @@
+---
+- name: Build Docker Image
+  shell: docker build -t timeservice:latest .
+  args:
+    chdir: /root/timeservice
+

@@ -1,0 +1,7 @@
+---
+- include_tasks: clone-repo.yml
+
+- include_tasks: build-image.yml
+
+- include_tasks: deploy-app.yml
+

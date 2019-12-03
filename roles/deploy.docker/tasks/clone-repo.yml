@@ -1,0 +1,6 @@
+---
+- name: Clone Repo
+  git:
+    repo: 'https://github.com/iwant2workinyourcompany/timeservice.git'
+    dest: /root/timeservice
+

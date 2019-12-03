@@ -1,0 +1,6 @@
+---
+- name: Deploy Image
+  shell: docker-compose up -d
+  args:
+    chdir: /root/timeservice
+
